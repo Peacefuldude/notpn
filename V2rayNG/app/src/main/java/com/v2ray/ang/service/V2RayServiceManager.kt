@@ -189,7 +189,7 @@ object V2RayServiceManager {
                 try {
                     v2rayPoint.stopLoop()
                     Thread.sleep(250)
-                    v2rayPoint.terminateByExit()
+//                    v2rayPoint.terminateByExit()
                 } catch (e: Exception) {
                     Log.d(ANG_PACKAGE, e.toString())
                 }
